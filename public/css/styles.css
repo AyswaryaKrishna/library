@@ -1,0 +1,268 @@
+/* override bootstrap styles */
+
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+.navbar-form input,
+.form-inline input {
+    width: auto;
+}
+
+body {
+    padding-top: 50px;
+    color: #646464;
+    background-color: #efefef;
+}
+
+h1,
+h2,
+h3,
+.highlight,
+.navbar a,
+#masthead h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #cecece;
+}
+
+#masthead {
+    min-height: 450px;
+    background-image: url("https://static.myfbcover.com/covers/Others/Books.jpg");
+    color: #aaaacc;
+    /* background-image: url("/images/bgimg.jpg"); */
+}
+
+.testing {}
+
+#masthead h1 {
+    font-size: 55px;
+    line-height: 1;
+    color: #fefeff;
+    margin-top: 150px;
+    text-shadow: 3px 3px black;
+}
+
+#topPanel {
+    padding-top: 0px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+#topPanel .panel-body {
+    padding-top: 0px;
+}
+
+.navbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.top-spacer {
+    background-color: #ffffff;
+    height: 40px;
+}
+
+a,
+a:hover {
+    color: #223344;
+    text-decoration: none;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    #masthead h1 {
+        font-size: 80px;
+    }
+}
+
+.navbar-right {
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.navbar-bright {
+    background-color: #0f0f0f;
+    color: #fff;
+    margin-bottom: 0;
+    border-width: 0;
+    text-shadow: 2px 2px #5b5a59;
+}
+
+.navbar-bright a,
+.navbar-bright .navbar-brand,
+#masthead h4 {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .08em;
+}
+
+.navbar-bright li>a:hover {
+    background-color: #4c4b4a;
+}
+
+.dropdown-menu {
+    min-width: 250px;
+}
+
+.caret {
+    color: #fff;
+}
+
+.navbar-toggle {
+    color: #fff;
+    border-width: 0;
+}
+
+.navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.panel {
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.thumbnail {
+    margin-bottom: 8px;
+}
+
+.img-container {
+    overflow: hidden;
+    height: 170px;
+}
+
+.img-container img {
+    min-width: 280px;
+    min-height: 180px;
+    max-width: 380px;
+    max-height: 280px;
+}
+
+.txt-container {
+    overflow: hidden;
+    height: 100px;
+}
+
+.panel .lead {
+    overflow: hidden;
+    height: 90px;
+}
+
+.label-float {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: .9;
+    padding: 6px;
+    color: #fff;
+}
+
+.btn-twitter {
+    background-color: #4099FF;
+    color: #fff;
+}
+
+.btn-facebook {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+.btn-google-plus {
+    background-color: #d34836;
+    color: #fff;
+}
+
+.btn-twitter:hover {
+    background-color: #3088FF;
+    color: #62BBFF;
+}
+
+.btn-facebook:hover {
+    background-color: #2A4998;
+    color: #4C6BBA;
+}
+
+.btn-google-plus:hover {
+    background-color: #C23836;
+    color: #E45A58;
+}
+
+
+/* styles for login and signup pages */
+
+.mainSignIn {
+    background-color: rgb(235, 235, 235);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.mainSignIn p {
+    font-size: 29px;
+    color: rgb(57, 56, 55);
+    font-weight: bold;
+}
+
+.mainSignIn #fileInput {
+    margin-left: 70px;
+    /* align-items: center; */
+}
+
+.innerLogin {
+    text-align: center;
+}
+
+.un,
+.pass,
+.submit {
+    width: 70%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgb(167, 165, 165);
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit {
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(31, 32, 32);
+    border: none;
+    box-shadow: 0px 0px 5px rgb(60, 61, 61);
+}
+
+.mainSignIn a {
+    font-size: medium;
+    color: #292a2a;
+    text-decoration: none;
+}
+
+.mainSignIn a:hover {
+    color: #2A4998;
+}
+
+.alertLabel {
+    font-size: smaller;
+    color: red;
+    min-width: 70%;
+}

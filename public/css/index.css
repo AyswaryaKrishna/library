@@ -1,0 +1,28 @@
+body,
+h1 {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 2em;
+}
+
+body,
+html {
+    height: 100%
+}
+
+.bgimg {
+    background-image: url("\welcome.jpg");
+    /* background-color: yellow; */
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.adminuser {
+    padding-left: 30px;
+    padding: 30px;
+}
+
+.adminuser li {
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+Assignment on Router Creation
+
+Create a Router for Authors and Single Author in the Library App
+
+Create Router for SignUp and Login
+
+Design a new page for adding new books and new authors and create the corresponding router for it.
+
+Complete the form validations for a signup, login, and add book forms.
+
+Styles should be applied properly.
+
+Due Date: 10th December 2020, 7.30 PM
